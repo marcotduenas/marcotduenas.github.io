@@ -33,7 +33,8 @@ ul{
 
 
 .form input{
-    width: 500px;
+    width: 60vh;
+    height: 3vh;
     padding: 20px;
     border-radius: 40px;
     font-size: 2em;
@@ -79,7 +80,7 @@ ul li{
     font-size: 5em;
 }
 
-/* MOBILE */
+/* DESKTOP */
 @media only screen and (max-width: 1500px){
     ul{
         display: none;
