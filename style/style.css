@@ -45,7 +45,7 @@ ul{
 
 .social{
     text-decoration: none;
-    margin-left: 600px;
+    margin-left: 400px;
     align-items: left;
     margin-top: 30%;
 }
@@ -58,7 +58,7 @@ ul{
 
 ul{
     position: fixed;
-    margin-right: 77%;
+    margin-right: 100%;
     width: 500px;
     float:right;
 }
@@ -76,12 +76,16 @@ ul li{
     color: #f8f8f8;
     width: 500px;
     text-align: center;
-    font-size: 130px;
+    font-size: 100px;
 }
 
 /* MOBILE */
 @media only screen and (max-width: 1480px){
     ul{
+        display: none;
+    }
+
+    #clock{
         display: none;
     }
 }
