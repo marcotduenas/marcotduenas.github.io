@@ -5,10 +5,6 @@ function displayClock(){
     let m  = time.getMinutes();
     let s = time.getSeconds();
     
-    if(h > 12){
-        h = h - 12;
-    }
-
     if(h == 0){
         h = 12;
     }
