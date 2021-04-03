@@ -81,7 +81,7 @@ ul li{
 }
 
 /* MOBILE */
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1600px){
     .form input{
         font-size: 2.5vh;
         width: 300px;
