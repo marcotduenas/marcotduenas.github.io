@@ -1,3 +1,4 @@
+/*DATE*/
 setInterval(displayClock, 500);
 function displayClock(){
     let time = new Date();
