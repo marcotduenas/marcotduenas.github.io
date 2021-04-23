@@ -21,6 +21,6 @@ function displayClock(){
         s = '0' + s;
     }
 
-    document.getElementById('clock').innerHTML = h + ':' + m + ':' + s;
+    document.getElementById('clock').innerText = h + ':' + m + ':' + s;
 
 }
