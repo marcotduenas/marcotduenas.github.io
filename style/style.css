@@ -8,6 +8,7 @@
     padding: 10rem;
     margin: auto;
     width: 55vw;
+    height: 75vh;
 }
 
 #welcome h1{
@@ -15,14 +16,20 @@
     position: absolute;
 }
 
-#welcome h1 > span{
-    color: green;
+#welcome h3{
+    color: #454545;
+    position:   absolute;
+    padding: 12.5rem 6.5rem;
 }
 
 #welcome img{
     border-radius: 50%;
     float: right;
     width: 25rem;
+    box-shadow: 1.5em 1.5em 2em gray;
 }
 
-
+#welcome p{
+    padding: 40rem 31rem;
+    width: 10vw;
+}
