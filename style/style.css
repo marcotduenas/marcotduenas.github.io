@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     margin: 0;
     padding:    0;
-    font-family:   sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #welcome{
@@ -22,6 +23,11 @@
     padding: 12.5rem 6.5rem;
 }
 
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+
 #welcome img{
     border-radius: 50%;
     float: right;
@@ -30,6 +36,32 @@
 }
 
 #welcome p{
-    padding: 40rem 31rem;
-    width: 10vw;
+    text-align: center;
+    padding-top: 40rem;
+
+}
+
+.topics{
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.text p{
+    max-width: 60rem;
+}
+
+.text i{
+    font-size: 2.3rem;
+    padding: 10px;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    padding-top: 10px
 }
