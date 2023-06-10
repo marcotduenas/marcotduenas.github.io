@@ -10,92 +10,79 @@
 </head>
 
 <body>
-    <div class="intro centered">
+    <div class="intro">
         <h1>Marco Tulio Dueñas</h1>
-        <h3>Indie developer & freelancer</h3>
-        <p>
+        <p class="occupation">Indie developer & freelancer</p>
+        <p class="about">
             I'm a brazilian technology enthusiast who likes to make projects that means something to me. Currently I'm
             taking
             a look at the A.I area, still haven't made anything outside the Jupyter Notebook but it is a enjoyable
             experience.
         </p>
     </div>
-    <div class="projects centered">
+    <div class="projects">
         <h1>Projects</h1>
-        <div class="container">
-            <!--Card 1-->
-            <div class="card">
-                <div class="card-header">
-                    <img class="card-img" src="./img/placeholder.png">
-                </div>
-                <div class="card-body">
-                    <h2 class="card-project-title">Project X</h2>
-                    <h3 class="card-skills">JS, HTML, CSS</h3>
+        <div class="portfolio">
+            <div class="card" onclick='window.open("https://github.com/marcotduenas/goldstein", "_blank")'>
+                <img class="card-img" src="./img/goldstein.png">
+                <div class="card-info">
+                    <p class="card-title">Goldstein</p>
+                    <p class="card-desc">Linux, Shell script</p>
                 </div>
                 <div class="card-footer">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-
-            <!--Card 2-->
-            <div class="card">
-                <div class="card-header">
-                    <img class="card-img" src="./img/placeholder.png">
-                </div>
-                <div class="card-body">
-                    <h2 class="card-project-title">Project Y</h2>
-                    <h3 class="card-skills">JS, HTML, CSS</h3>
-                </div>
-                <div class="card-footer">
-                    <a href="#">Ver mais</a>
-                </div>
-            </div>
-            <!--Card 3-->
-            <div class="card">
-                <div class="card-header">
-                    <img class="card-img" src="./img/placeholder.png">
-                </div>
-                <div class="card-body">
-                    <h2 class="card-project-title">Project Z</h2>
-                    <h3 class="card-skills">JS, HTML, CSS</h3>
-                </div>
-                <div class="card-footer">
-                    <a href="#">Ver mais</a>
+                    <p>Ver mais</p>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <div class="history centered">
-        <h1>My journey</h1>
-        <p>
-            2020 - First <b>"Hello World"</b><br>
-            I tried programming some years before but I never took it seriously, in 2020 I've decided that I would learn
-            how to program at least in one language, but instead of focusing my energy in Python I've starded hopping
-            between languages...
-        </p>
-        <p>
-            2021 - <b>Linux and first freelance project</b><br>
-            In late 2020 I've started using Linux as my main OS but it was in 2021 that I've started learning about the
-            FOSS system. Learned how to use the terminal, Vim, Latex and other minimal tools.<br>
-            Besides that, I've made my first freelance project as a front-end dev, the project was a landing page for a
-            coach.
-        </p>
-        <p>
-            2022 - <b>FOSS development</b><br>
-            After learning Linux for a while, I've started my own FOSS projects using Go and Shell Script and did a
-            school presentation about Free
-            Software and how they're important.
-        </p>
-        <p>
-            2023 - <b>A.I?</b><br>
-            As I said, I'm trying to learn about A.I using the Jupyter Notebook, Tensorflow, SkLearn and other tools.
-            Besides that I'm trying to improve my programming skills in various perspectives.
-        </p>
-
 
     </div>
-    <footer class="centered">
+    <div class="history">
+        <div class="info">
+            <h1>My journey</h1>
+            <div class="timespace">
+                <span>2020</span> First <b>"Hello World"</b>
+            </div>
+            <p>
+
+                I tried programming some years before but I never took it seriously, in 2020 I've decided that I would
+                learn
+                how to program at least in one language, but instead of focusing my energy in Python I've starded
+                hopping
+                between languages...
+            </p>
+            <div class="timespace">
+                <span>2021</span> <b>Linux</b><br>
+            </div>
+            <p>
+
+                In late 2020 I've started using Linux as my main OS but it was in 2021 that I've started learning about
+                the
+                FOSS system. Learned how to use the terminal, Vim, Latex and other minimal tools.<br>
+                Besides that, I've made my first freelance project as a front-end dev, the project was a landing page
+                for a
+                coach.
+            </p>
+
+            <div class="timespace">
+                <span>2022</span> <b>FOSS development</b><br>
+            </div>
+            <p>
+
+                After learning Linux for a while, I've started my own FOSS projects using Go and Shell Script and did a
+                school presentation about Free
+                Software and how they're important.
+            </p>
+            <div class="timespace">
+                <span>2023</span> <b>A.I?</b>
+            </div>
+            <p>
+                As I said, I'm trying to learn about A.I using the Jupyter Notebook, Tensorflow, SkLearn and other
+                tools.
+                Besides that I'm trying to improve my programming skills in various perspectives.
+            </p>
+        </div>
+    </div>
+    <footer>
         <div id="copyright"></div>
     </footer>
     <script src="./js/copyright.js"></script>
